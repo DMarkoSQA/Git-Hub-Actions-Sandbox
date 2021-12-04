@@ -11,8 +11,8 @@ jobs:
       - name: multiline script
         run: |
           gradle -version
-      - name: python command
-          run: |
+      - name: python Command
+        run: |
             import platform
             print(platform.processor())
-          shell: python
+        shell: python
