@@ -14,7 +14,7 @@ jobs:
       - name: List Files After GitHub Checkout
         run: |
           ls -a
-      - name: Simple JS Action Hello World
+      - name: Simple JS Action Hello World!
         id: greet
         uses: actions/hello-world-javascript-action@v1
         with:
